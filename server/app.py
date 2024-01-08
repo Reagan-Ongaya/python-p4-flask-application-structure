@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-#Defining a route
+#Defining a route by the use of @app.route decorator
 @app.route('/')
 def index():
     return '<h1>Welcome to my app!</h1>'
